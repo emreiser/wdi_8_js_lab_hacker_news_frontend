@@ -1,1 +1,33 @@
 /* Put any styles you'd like to apply in here */
+
+ul li {
+	margin-bottom: 20px;
+}
+
+ul.sub-list li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ul.sub-list li:nth-child(2) {
+	width: 40%;
+}
+
+
+ul, ul.sub-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+input, button {
+	margin-bottom: 10px;
+}
+
+.btn {
+	margin-bottom: 10px;
+}
+
+.bold {
+	font-weight: bold;
+}
